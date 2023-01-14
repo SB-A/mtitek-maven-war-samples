@@ -1,6 +1,6 @@
 FROM tomcat:8.5.35-jre10
 
-COPY target/01-maven-web-app*.war /usr/local/tomcat/webapps/maven-web-app.war
+COPY target/mtitek-maven-war-samples*.war /usr/local/tomcat/webapps/mtitek-maven-war-samples.war
 
 EXPOSE 8080
 
